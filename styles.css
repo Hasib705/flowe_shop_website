@@ -104,6 +104,14 @@
     margin: 10px 0px 0px 0px;
     text-align: center;
 }
+.feature-image-title:hover{
+    cursor:pointer;
+    color:whitesmoke;
+    background-color: #3b3b3b;
+    padding:8px;
+    border-radius: 6px;
+    border:none;
+}
 
 .feature-description {
     color: rgba(39, 39, 39, 0.60);
