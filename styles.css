@@ -23,6 +23,7 @@
     color: #272727;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 40px;
+    font: weight 800px;
 }
 
 .banner-description {
@@ -38,6 +39,10 @@
     border: none;
     padding: 20px 43px;
     color: white;
+}
+.banner-button:hover{
+    color:#272727;
+    cursor:pointer;
 }
 
 .banner-image {
@@ -150,7 +155,6 @@
     width: 230px;
     height: 250px;
     margin: 10px;
-    /* flex-shrink: 0; */
 }
 
 /* deals section style */
@@ -159,11 +163,11 @@
 }
 
 .deals-info {
-    width: 900px;
+    width: 990px;
     height: 300px;
     /* text-align: center; */
     background-image: url("./Flower Asset/Rectangle\ 9.png");
-    background-size: 900px 300px;
+    background-size: 990px 300px;
     margin: auto;
     margin-top: 80px;
     display: flex;
@@ -176,7 +180,16 @@
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
+}
+.email{
+    width: 400px;
+height: 40px;
+border-radius: 8px;
+background: #FFF;
+padding-left: 15px;
+margin:10px 0px 10px 0px;
+
 }
 
 /* footer section */
@@ -184,7 +197,6 @@
     width: auto;
     height: 300px;
     margin-top: 70px;
-    flex-shrink: 0;
     background: #111010;
     color: white;
     display: flex;
@@ -211,4 +223,10 @@
 }
 .shop{
     color:white;
+}
+
+.last{
+    color: rgba(255, 255, 255, 0.40);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 10px;
 }
