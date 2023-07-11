@@ -216,12 +216,13 @@
     font-size: 14px;
 }
 .email{
-    width: 400px;
+    width: 600px;
 height: 40px;
 border-radius: 8px;
 background: #FFF;
 padding-left: 15px;
-margin:10px 0px 10px 0px;
+margin:30px 0px 10px 0px;
+border:none;
 
 }
 
